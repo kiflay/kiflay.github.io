@@ -17,8 +17,3 @@ permalink: /about/
 
 </section>
 
-+   Candy.
-+   Gum.
-+   Booze.
-- candy
-- test
