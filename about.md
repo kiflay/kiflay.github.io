@@ -3,7 +3,22 @@ layout: page
 title: About
 permalink: /about/
 ---
-*more information is coming soon.
+<section class="section section-main">
+	<div class="section-content">
+		<div class="large-10 large-centered">
+			<h2 class="section-headline">
+				About Me
+			</h2>
+			My name is kiflay tewelde, immigrated to the UK in 2008 from Eritrea. Graduated an MSC in Electronic Engineering at queen mary university of london. .NET Developer also with front end Javascript and currently learning Ruby on Rails.
 
-* .net projects
-* asp.net 5 projects
+			
+		</div>
+	</div>
+
+</section>
+
++   Candy.
++   Gum.
++   Booze.
+- candy
+- test

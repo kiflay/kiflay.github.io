@@ -1,16 +1,62 @@
 
 /*site header css 
  *========================*/
+	.site-right{
 
-.site-right{
- float:left;
- padding-top:16px;
- text-transform:uppercase;
-	
-}
+	 float:left;
+	 padding-top:16px;
+	 text-transform:uppercase;
+		
+	}
 .site-right .page-link {
 	font-weight:700 !important;
 	line-height:1.5;
 	letter-spacing:0.05em;
 	margin-left:200px;
 }
+
+/* blog title and content styling
+*====================================*/
+	.section .section-intro{
+		padding-top:34px;
+	}
+	.section .section-content{
+		position:relative;
+		margin-left:auto;
+		margin-right:auto;
+		width:980px;
+	}
+	.large-centered{
+		margin-left:auto;
+		margin-right:auto;
+		float:none;
+	}
+	.large-10{
+		width:100%;
+	}
+	.hero-headline{
+		font-size: 52px;
+		line-height:1.0625;
+		font-weight:200 !important;
+		letter-spacing: -0.02em
+	}
+	.eyebrow{
+		display:inline-block;
+		width:100%;
+		font-size:24px;
+		line-height:1.333;
+		font-weight:300;
+		letter-spacing:0em;
+	}
+	.section {
+	    position: relative;
+	    z-index: 1;
+	    padding-top: 29px;
+   }
+    .section-headline {
+	    font-size: 32px;
+	    line-height: 1.125;
+	    font-weight: 300;
+	    letter-spacing: 0em;
+   }
+  
