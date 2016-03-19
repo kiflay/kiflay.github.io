@@ -2,12 +2,13 @@
  * ============================================== */
     .site-header {
         height: 55px;
-        background-color: #F5F5F5;
+        background-color: #2dc3e8;
         position: relative;
         width: 100%;
     }
 
-    .site-header a {color: $brand-color};
+    .site-header a {color: #444;}
+    .site-header a:hover {color:#fff;}
 
     .site-nav {
         padding-top: 16px;
