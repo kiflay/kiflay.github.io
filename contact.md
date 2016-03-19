@@ -6,5 +6,5 @@ permalink: /contact/
 
 
 * Address: London
-* Github: http://github.com/kiflay.tewelde
-* Portfolio: http://kiflay.tewelde.github.io
+* Github: http://github.com/kiflay
+* Email:  kteweldebrhane@gmail.com
