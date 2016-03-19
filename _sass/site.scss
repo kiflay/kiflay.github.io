@@ -3,17 +3,22 @@
  *========================*/
 	.site-right{
 
-	 float:left;
-	 padding-top:16px;
-	 text-transform:uppercase;
+		 float:left;
+		 padding-top:16px;
+		 text-transform:uppercase;
 		
 	}
-.site-right .page-link {
-	font-weight:700 !important;
-	line-height:1.5;
-	letter-spacing:0.05em;
-	margin-left:200px;
-}
+    .site-right .page-link {
+		font-weight:700 !important;
+		line-height:1.5;
+		letter-spacing:0.05em;
+		margin-left:200px;
+
+		@include media-query($on-palm){
+		font-weight: 300;
+		margin-left:50px;
+		}
+    }
 
 /* blog title and content styling
 *====================================*/
