@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="home">
+<!--<div class="home">
 
   <h1 class="page-heading">{{ site.title }}</h1>
 
@@ -10,8 +10,29 @@ layout: default
     {% for post in site.posts %}
       <li>
         <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+       <!-- <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
   </ul>
-</div>
+
+  
+
+</div>-->
+
+  <h2> List of projects</h2>
+
+  <br/>
+  <br/>
+
+
+
+  <h4> Entity Generator GUI </h4>
+
+
+<p>Windows form application that generates classes from database tables </p>
+
+<strong>How to run the code </strong> <br/>
+
+<p> * Add the stored procedure named "foreignKeyGet.sql" to your database. <br/>
+* Run the code in visual studio <br/>
+* once you run the code, pass the connection string parameter to the form input text, then click generate button to generate classes for your tables.<br/><br/>You can download the code from Github:</p>  <a href="https://github.com/kiflay/EntityGeneratorGUI" target="_blank">https://github.com/kiflay/EntityGeneratorGUI</a>
