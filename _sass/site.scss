@@ -73,19 +73,30 @@
   
   /* background image
   ============================================= */
-  .photo-kt{
+  .photo-project{
    background-image: url("/assets/home2.jpg");
-   padding-top: 200px;
+   padding-top: 100px;
    padding-bottom: 300px;
    background-repeat: no-repeat;
    background-size:cover;
+   opacity:0.9;
 
+  }
+  .photo-about{
+   background-image: url("/assets/about.jpg");
+   padding-top: 100px;
+   padding-bottom: 300px;
+   background-repeat: no-repeat;
+   background-size:cover;
+   opacity:0.9;
   }
   /* headline with background image
   ================================================= */
-  .headline-image{
+  .headline-kt{
   		text-align:center;
   		color:#fff;
+  		text-transform: uppercase;
+
   }
   .content{
   padding-top:40px;
