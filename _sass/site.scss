@@ -71,3 +71,22 @@
    		margin-top:90px;
    }
   
+  /* background image
+  ============================================= */
+  .photo-kt{
+   background-image: url("/assets/home2.jpg");
+   padding-top: 200px;
+   padding-bottom: 300px;
+   background-repeat: no-repeat;
+   background-size:cover;
+
+  }
+  /* headline with background image
+  ================================================= */
+  .headline-image{
+  		text-align:center;
+  		color:#fff;
+  }
+  .content{
+  padding-top:40px;
+  }

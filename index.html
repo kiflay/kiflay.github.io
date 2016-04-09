@@ -1,8 +1,10 @@
 ---
-layout: default
+
 description: list of project including class generator GUI from database tables
 comments: true
 ---
+
+
 
 <!--<div class="home">
 
@@ -22,21 +24,49 @@ comments: true
 
 </div>-->
 
-  <h2> List of projects</h2>
+<!DOCTYPE html>
+<html>
 
-  <br/>
+  {% include head.html %}
+  {% include google-analytics.html %}
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="photo-kt"><h2 class="headline-image"> LIST OF PROJECTS</h2></div>
+      <div class="wrapper">
+                
+          <div class="content">
+
+            <h2>Entity Generator GUI 
+            </h2>
 
 
+                <p>Windows form application that generates classes from database tables </p><br/>
 
-  <h4>Hi Entity Generator GUI </h4>
+                <strong>How to use the Application  </strong> <br/>
+
+                <p> * Add the stored procedure named "foreignKeyGet.sql" to your database. <br/>
+                * Run the CodeGeneratorGUI.exe Application inside the CodeGeneratorGUI folder  <br/>
+                * once you run the code, pass the connection string parameter to the form input text, then click generate button to generate classes for your tables.<br/><br/>You can download the code from Github:</p>  <a href="https://github.com/kiflay/EntityGeneratorGUI" target="_blank">https://github.com/kiflay/EntityGeneratorGUI</a>
+
+           </div>
+
+            {% include comments.html %}
+
+      </div>
+
+    </div>
 
 
-<p>Windows form application that generates classes from database tables </p>
+  
+    
 
-<strong>How to use the Application  </strong> <br/>
+   {% include footer.html %}
 
-<p> * Add the stored procedure named "foreignKeyGet.sql" to your database. <br/>
-* Run the CodeGeneratorGUI.exe Application inside the CodeGeneratorGUI folder  <br/>
-* once you run the code, pass the connection string parameter to the form input text, then click generate button to generate classes for your tables.<br/><br/>You can download the code from Github:</p>  <a href="https://github.com/kiflay/EntityGeneratorGUI" target="_blank">https://github.com/kiflay/EntityGeneratorGUI</a>
+  </body>
+</html>
 
-{% include comments.html %}
+ 
+
