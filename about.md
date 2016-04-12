@@ -7,11 +7,22 @@ permalink: /about/
 	<div class="section-content">
 		<div class="large-10 large-centered">
 			
-			My name is kiflay tewelde, immigrated to the UK in 2008 from Eritrea. Graduated with MSC in Electronic Engineering at queen mary university of london. .NET Developer also with front end Javascript and currently learning Ruby on Rails.
-
-			
+			My name is Kiflay Teweldebrhane Yimesgen - It rather sarcastically means "Kiflay, the light is gone. Thanks".
+			<br/>
+			<br/>
+			I graduated from Queen Mary University of London with an M.Eng in Electronic Engineering.
+			<br/>
+			I mostly develop web applications using .NET technologies, C# especially. I also develop 
+			interactive interfaces with JavaScript using standard practices, patterns and protocols. I am currently learning Ruby on Rails.
+			<br/>
+			I have special interest in high performance applications, which is why I love .NET - Applications are compiled to their binaries.
+			<br/>
+			<br/>
+			I play football a lot, attend .NET London meetups and want to start trading.
+			<br/>
+			<br/>
+			Notable people I look up to include Marissa Mayer and Mahatma Gandhi.
 		</div>
 	</div>
 
 </section>
-
