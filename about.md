@@ -7,7 +7,7 @@ permalink: /about/
 	<div class="section-content">
 		<div class="large-10 large-centered">
 			
-			My name is Kiflay Teweldebrhane Yimesgen - It rather sarcastically means "Kiflay, the light is gone. Thanks".
+			My name is Kiflay Teweldebrhane Yimesgen - .
 			<br/>
 			<br/>
 			I graduated from Queen Mary University of London with an M.Eng in Electronic Engineering.
