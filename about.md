@@ -7,10 +7,10 @@ permalink: /about/
 	<div class="section-content">
 		<div class="large-10 large-centered">
 			
-			My name is Kiflay Teweldebrhane Yimesgen - .
+			My name is Kiflay Teweldebrhane Yimesgen - 
 			<br/>
 			<br/>
-			I graduated from Queen Mary University of London with an M.Eng in Electronic Engineering.
+			I graduated from Queen Mary University of London with an M.Eng in Electronic Engineering. Currently I am working as Software developer at ClevGroup in London.
 			<br/>
 			I mostly develop web applications using .NET technologies, C# especially. I also develop 
 			interactive interfaces with JavaScript using standard practices, patterns and protocols. I am currently learning Ruby on Rails.
@@ -18,10 +18,10 @@ permalink: /about/
 			I have special interest in high performance applications, which is why I love .NET - Applications are compiled to their binaries.
 			<br/>
 			<br/>
-			I play football a lot, attend .NET London meetups and want to start trading.
+			I play football every friday, attend .NET London meetups and develop software.
 			<br/>
 			<br/>
-			Notable people I look up to include Marissa Mayer and Mahatma Gandhi.
+			
 		</div>
 	</div>
 
