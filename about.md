@@ -3,9 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
-<section class="section section-main">
-	<div class="section-content">
-		<div class="large-10 large-centered">
+<section>
+	
 			
 			My name is Kiflay Teweldebrhane Yimesgen - 
 			<br/>
@@ -21,8 +20,6 @@ permalink: /about/
 			I play football every friday, attend .NET London meetups and develop software.
 			<br/>
 			<br/>
-			
-		</div>
-	</div>
+		
 
 </section>

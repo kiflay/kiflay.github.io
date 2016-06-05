@@ -1,17 +1,32 @@
+<html>
+
+<head>
+<title> Driving licence check </title>
+<style>
+
+.container{
+  display:flex;
+  justify-content: space-around;
+  flex-direction:column;
+  width:300px;
+}
+.row{
+ display:flex;
+  
+}
+.result{
+  display:flex;
+  padding-left:30px;
+  
+}
+#licence{
+  font-weight:bold;
+  color: blue;
+}
+</style>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-75843178-1', 'auto');
-  ga('send', 'pageview');
-
-  $(window).load(function() {
- $("#dob").datepicker({
- 	        changeMonth: true,
-            changeYear: true,
-            showButtonPanel: true });
+$(window).load(function() {
+ $("#dob").datepicker();
 
   
   check();
@@ -23,9 +38,7 @@ function check(){
     var a = verify();
     var b = dob();
     var d = a + b + c;
-    $('#licence').text(
-    	"The first 13 Digits of your licence Number is : " + d.toUpperCase()
-    );
+    $('#licence').text(d.toUpperCase());
     console.log(d);
     
     
@@ -108,10 +121,32 @@ function initialFirst(){
   else{
     
    initialValue =  first + defaultValue.repeat(1);
+   return initialValue;
     
 }
-return initialValue;
   
 }
-
 </script>
+</head>
+<body>
+<div class="row">
+<div class="container">
+<input type="text" id="firstname" placeholder="First Name"></input>
+<input type="text" id="lastname" placeholder="Last Name"></input>
+<input type="text" id="middlename" placeholder="Middle Name"></input>
+<select id="gender">
+  <option value ="Male" id ="male"> Male</option>
+  <option value ="Female" id ="female"> Female</option>
+  <option value ="Other" id ="other"> Other</option>
+</select>
+<input type="text" id="dob" placeholder="DOB"></input>
+
+<input id="submit" type="submit"></input>
+</div>
+<div class="result">
+ <h3> The first 13 Digits of your licence Number is :  </h3>
+ <h3 id="licence"></h3>
+</div>
+</div>
+</body>
+</html>

@@ -1,28 +1,8 @@
 ---
 
 description: list of project including class generator GUI from database tables
-comments: true
+
 ---
-
-
-
-<!--<div class="home">
-
-  <h1 class="page-heading">{{ site.title }}</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
-       <!-- <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-
-  <br/>  
-
-</div>-->
 
 <!DOCTYPE html>
 <html>
@@ -34,26 +14,28 @@ comments: true
     {% include header.html %}
 
     <div class="page-content">
-      <div class="photo-project"><h1 class="headline-kt"> LIST OF PROJECTS</h1></div>
+      <div class="photo-project"><h1 class="headline-kt"> LIST OF BLOGS</h1></div>
       <div class="wrapper">
                 
-          <div class="content">
+         <div class="home">
 
-            <h2>Entity Generator GUI 
-            </h2>
+  <h1 class="page-heading">{{ site.title }}</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> 
+       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
 
-                <p>Windows form application that generates classes from database tables </p><br/>
+  <br/>  
 
-                <strong>How to use the Application  </strong> <br/>
+</div>
 
-                <p> * Add the stored procedure named "foreignKeyGet.sql" to your database. <br/>
-                * Run the CodeGeneratorGUI.exe Application inside the CodeGeneratorGUI folder  <br/>
-                * once you run the code, pass the connection string parameter to the form input text, then click generate button to generate classes for your tables.<br/><br/>You can download the code from Github:</p>  <a href="https://github.com/kiflay/EntityGeneratorGUI" target="_blank">https://github.com/kiflay/EntityGeneratorGUI</a>
-
-           </div>
-
-            {% include comments.html %}
+            
 
       </div>
 
@@ -67,6 +49,3 @@ comments: true
 
   </body>
 </html>
-
- 
-

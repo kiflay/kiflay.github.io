@@ -57,6 +57,7 @@
 	    position: relative;
 	    z-index: 1;
 	    padding-top: 29px;
+	    padding-bottom: 25px;
    }
     .section-headline {
 	    font-size: 32px;
@@ -100,4 +101,29 @@
   }
   .content{
   padding-top:40px;
+  }
+  .container{
+  display:flex;
+  justify-content: space-around;
+  flex-direction:column;
+  width:300px;
+}
+.row{
+ display:flex;
+  
+}
+.result{
+  display:flex;
+  padding-left:30px;
+  
+}
+#licence{
+  font-weight:bold;
+  color: blue;
+}
+div.ui-datepicker{
+ font-size:10px;
+}
+.ui-datepicker{
+         width: 100px;
   }
