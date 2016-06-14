@@ -8,6 +8,9 @@
   ga('send', 'pageview');
 
   $(window).load(function() {
+    $('.site-nav').hover(function(){
+      $('.trigger').attr('id','mobile');
+  });
  $("#dob").datepicker({
  	        changeMonth: true,
             changeYear: true,
@@ -15,6 +18,7 @@
 
   
   check();
+  
 });
 
 function check(){
