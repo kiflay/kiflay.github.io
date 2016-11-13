@@ -84,11 +84,11 @@
 
   }
   .photo-about{
-   background-image: url("/assets/aboutme.jpg");
+   background-image: url("/assets/aboutMe.jpg");
    padding-top: 100px;
    padding-bottom: 300px;
-   background-repeat: no-repeat;
-   background-size:cover;
+   background-repeat: repeat;
+   background-size:contain;
    opacity:0.9;
   }
   /* headline with background image
