@@ -9,7 +9,7 @@ permalink: /about/
 			My name is Kiflay Teweldebrhane Yimesgen - 
 			<br/>
 			<br/>
-			I graduated from Queen Mary University of London with an M.Eng in Electronic Engineering. Currently I am working as Web developer at <a href="http://www.attraqt.com/" title="ATTRAQT"> ATTRAQT </a> in London.
+			I graduated from Queen Mary University of London with an M.Eng in Electronic Engineering. Currently I am working as Web developer at <a href="http://www.attraqt.com/" target="new" title="ATTRAQT"> ATTRAQT </a> in London.
 			<br/>
 			I mostly develop web applications using .NET technologies, C# especially. I also develop 
 			interactive interfaces with JavaScript using standard practices, patterns and protocols. I am currently learning Ruby on Rails.
