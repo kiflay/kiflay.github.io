@@ -15,7 +15,7 @@ permalink: /about/
 			<br/>
 			I've worked as Softaware developer,C# Developer,Web developer. 
 			<br/>
-			I have special interest in high performance applications, which is why I love .NET - Applications are compiled to their binaries.
+			I've special interest in high performance applications, which is why I love .NET - Applications are compiled to their binaries.
 			<br/>
 			I play football every wednesday, attend .NET London meetups and develop software.
 			<br/>
