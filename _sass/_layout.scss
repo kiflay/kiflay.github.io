@@ -3,8 +3,9 @@
     .site-header {
         height: 55px;
         background-color: #2dc3e8;
-        position: relative;
+        position: fixed;
         width: 100%;
+        z-index:100;
     }
 
     .site-header a {color: #444;}
