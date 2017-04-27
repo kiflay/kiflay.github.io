@@ -17,7 +17,7 @@ The required layout for desktop and mobile devices can be easily achieved using 
 * Declaring the grid
 * Placing items
 
-![ALT Grid style for desktop](/assets/Images/Blogs/css grid style/desiredlayout.png)
+![ALT Grid style for desktop](/assets/Images/Blogs/css-grid-style/desiredlayout.png)
 
 
 <script async src="//jsfiddle.net/Kiflay/Lsxkcvne/3/embed/html,css,result/dark/"></script>
@@ -26,12 +26,12 @@ The required layout for desktop and mobile devices can be easily achieved using 
 
 We declare a grid with 3 rows and 3 columns. The first, third rows and columns  are sized to fit the content. The second row and column takes up the remaining size.  
 
-![Declare the grid](/assets/Images/Blogs/css grid style/declareGrid.png)
+![Declare the grid](/assets/Images/Blogs/css-grid-style/declareGrid.png)
  
 <h4 class="te-header"> Placing Items: </h4>
 We have placed grid items using the ‘grid-area’ shorthand. For example the side panel items is placed on grid area “sidePanel”
  
-![placing items](/assets/Images/Blogs/css grid style/placingItems.png)
+![placing items](/assets/Images/Blogs/css-grid-style/placingItems.png)
 
 
 
