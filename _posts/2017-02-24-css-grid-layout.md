@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CSS GRID LAYOUT
-description: Elements can be placed in grid like structure using CSS
+description: Elements can be placed in grid like structure using CSS, css grid style, web site developer
 ---
 
 
