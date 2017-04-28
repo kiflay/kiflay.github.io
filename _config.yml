@@ -2,7 +2,7 @@
 title: ktewelde
 email: kteweldebrhane@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  kiflay tewelde site, web devloper, ecommerce developer, web application developer, freelancer, website developer
+    Web devloper, eCommerce developer, Web application developer, freelancer, website developer
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ktewelde.co.uk/" # the base hostname & protocol for your site
 twitter_username: username
