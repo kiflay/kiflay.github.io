@@ -7,7 +7,7 @@ description: kiflay teweldebrhane, web developer, ecommerce developer,website de
 <section>
 	
 			
-			My name is Kiflay Teweldebrhane
+			My name is Kiflay Teweldebrhane.
 		    <br>
 		    <br>
 			I've studied at  <a href="http://www.qmul.ac.uk/" title="Queen Mary University of London">Queen Mary University of London </a>,<a href="http://www.lambethcollege.ac.uk/" title="Lambeth college">Lambeth college.</a>

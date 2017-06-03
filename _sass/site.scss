@@ -148,6 +148,9 @@ div.ui-datepicker{
    position:absolute;
    top:42%;
    z-index:99;
+   @include media-query($on-palm){
+   top:26%;
+   }
   }
   .next {
    right:20px;
@@ -159,6 +162,9 @@ div.ui-datepicker{
   .fa-arrow-left, .fa-arrow-right{
   color:#000;
   font-size:30px !important;
+  @include media-query($on-palm){
+     font-size:20px !important;
+  }
   }
   .rs-carousel-pagination li{
   list-style:none;
@@ -169,6 +175,9 @@ div.ui-datepicker{
   z-index:998;
   top:85%;
   left:50%;
+  @include media-query($on-palm){
+     display:none;
+  }
   }
   .kt-info{
   position: absolute;
@@ -180,6 +189,9 @@ div.ui-datepicker{
   color:#000;
   opacity:0.6;
   font-size:24px;
+  @include media-query($on-palm){
+   display:none;
+  }
   }
   .rs-carousel-pagination{
   display:flex;
@@ -194,9 +206,17 @@ div.ui-datepicker{
   .carousel-image{
   width:1920px;
   height:800px;
+  @include media-query($on-palm){
+    width:700px;
+    height:464px;
+    
+  }
   }
   .carousel-image img{
   width:1920px;
+  @include media-query($on-palm){
+     width:700px;
+  }
   
   }
 
@@ -255,8 +275,22 @@ table{
   padding-top:60px;
   display:flex;
   justify-content:space-between;
+  @include media-query($on-palm){
+    flex-direction:column;
+    align-self:center;
+  }
 }
 
+.services{
+  @include media-query($on-palm){
+        align-self:center;
+  }
+}
+.contact-info{
+  @include media-query($on-palm){
+  align-self:center;
+  }
+}
 .icon-circle{
   width:60px;
   height:60px;
@@ -274,7 +308,15 @@ li{
 }
 
 .client-site{
-  border: 10px solid #232323;
+  display:flex;
+  flex-direction:column;
+}
+.pg-top{
+        padding-top:20px;
+ }
+
+.client-title, .client-service{
+  align-self:center;
 }
 .site-link{
   color: #444;
