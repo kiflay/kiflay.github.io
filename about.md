@@ -12,7 +12,7 @@ description: kiflay teweldebrhane, web developer, ecommerce developer,website de
 		    <br>
 			I've studied at  <a href="http://www.qmul.ac.uk/" title="Queen Mary University of London">Queen Mary University of London </a>,<a href="http://www.lambethcollege.ac.uk/" title="Lambeth college">Lambeth college.</a>
 			<br/>
-		    I've worked at <a href="https://www.capita-itps.co.uk/" target="new" title="Capita"> Capita, </a><a href="http://www.clevagroup.co.uk/" target="new" title="ClevaGroup"> ClevaGroup, <a href="http://www.attraqt.com/" target="new" title="ATTRAQT"> ATTRAQT </a> and now working at<a href="https://www.vanquis.co.uk/" target="new" title="Vanquis"> Vanquis Bank </a> .
+		    I've worked at <a href="https://www.capita-itps.co.uk/" target="new" title="Capita"> Capita, </a><a href="http://www.clevagroup.co.uk/" target="new" title="ClevaGroup"> ClevaGroup, <a href="http://www.attraqt.com/" target="new" title="ATTRAQT"> ATTRAQT </a> and now working at<a href="https://www.vanquis.co.uk/" target="new" title="Vanquis bank"> Vanquis Bank </a> .
 			<br/>
 			I've worked as Softaware developer,C# Developer,Web developer. 
 			<br/>
